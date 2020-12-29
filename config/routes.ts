@@ -46,7 +46,7 @@
                       {
                         name: '分公司行政部',
                         path: '/dashboard/admin/admin',
-                        component: './Dashboard/admin',
+                        component: './Dashboard/Admin/admin',
                       },
                     ],
                   },
@@ -72,7 +72,7 @@
                   },
                   {
                     path: '/workplace/pro',
-                    name: 'test',
+                    name: 'Prolist',
                     icon: 'table',
                     component: './Workplace/ProTableList',
                   },
@@ -93,6 +93,12 @@
                     authority: ['admin'],
                   },
                 ],
+              },
+              {
+                path: '/test',
+                name: 'test',
+                icon: 'table',
+                component: './test',
               },
               {
                 component: './404',
